@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "workingwitherrors.py", line 30, in <module>
+    raise Exception('This is the error message')
+Exception: This is the error message
+
+Traceback (most recent call last):
+  File "workingwitherrors.py", line 30, in <module>
+    raise Exception('This is the error message')
+Exception: This is the error message
+
