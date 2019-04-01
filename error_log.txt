@@ -1,0 +1,50 @@
+Traceback (most recent call last):
+  File "handlingErrors.py", line 12, in makeBox
+    raise Exception('Errored')
+Exception: Errored
+
+Traceback (most recent call last):
+  File "handlingErrors.py", line 12, in makeBox
+    raise Exception('Errored')
+Exception: Errored
+
+Traceback (most recent call last):
+  File "handlingErrors.py", line 12, in makeBox
+    raise Exception('Errored')
+Exception: Errored
+
+Traceback (most recent call last):
+  File "handlingErrors.py", line 12, in makeBox
+    raise Exception('Symbol character exceeds length requirement')
+Exception: Symbol character exceeds length requirement
+
+Traceback (most recent call last):
+  File "handlingErrors.py", line 12, in makeBox
+    raise Exception('Symbol character exceeds length requirement')
+Exception: Symbol character exceeds length requirement
+
+Traceback (most recent call last):
+  File "handlingErrors.py", line 12, in makeBox
+    raise Exception('Symbol character exceeds length requirement')
+Exception: Symbol character exceeds length requirement
+
+Traceback (most recent call last):
+  File "handlingErrors.py", line 12, in makeBox
+    raise Exception('Symbol character exceeds length requirement')
+Exception: Symbol character exceeds length requirement
+
+Traceback (most recent call last):
+  File "handlingErrors.py", line 12, in makeBox
+    raise Exception('Symbol character exceeds length requirement')
+Exception: Symbol character exceeds length requirement
+
+Traceback (most recent call last):
+  File "handlingErrors.py", line 12, in makeBox
+    raise Exception('Symbol character exceeds length requirement')
+Exception: Symbol character exceeds length requirement
+
+Traceback (most recent call last):
+  File "handlingErrors.py", line 12, in makeBox
+    raise Exception('Symbol character exceeds length requirement')
+Exception: Symbol character exceeds length requirement
+
