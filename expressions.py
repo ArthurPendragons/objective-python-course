@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import re
 #Regex = Regular Expression
 # text = 'Hey, call me, my number is 01524 844257 & 07976 120498'
@@ -39,3 +40,13 @@ import re
 #Greedy numbers - it wil also go for the larger numbers
 # digitRegex = re.compile(r'(\d){3,5}?')
 # print(digitRegex.search('1234567890'))
+=======
+# match object = MO
+
+import re
+text = 'my number is 01524 844257'
+phonenumfinder = re.compile(r'\d\d\d\d\d \d\d\d\d\d\d')
+mo = phonenumfinder.search(text)
+
+print(mo)
+>>>>>>> 2e9c96fc28eac6ae796d15be48a1a04bce7f3103
