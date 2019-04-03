@@ -1,5 +1,9 @@
 import smtplib
 
-conn = smtplib.SMTP('smtp.office365.com', 587)
+conn = smtplib.SMTP('smtp.gmail.com', 587)
+username = 'themainhero@gmail.com'
+password = 'Catdog123'
+conn.starttls()
 
-print(conn.ehlo())
+conn.login(username.password)
+conn.sendmail(username,username)
