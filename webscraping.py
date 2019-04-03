@@ -15,22 +15,22 @@
 
 
 
-# import bs4,requests,pyperclip
+import bs4,requests,pyperclip
 
-# def getAmazonPrice(productUrl):
-# 	res = requests.get(productUrl)
-# 	res.raise_for_status()
+def getAmazonPrice(productUrl):
+	res = requests.get(productUrl)
+	res.raise_for_status()
 
-	# soup = bs4.BeautifulSoup(res.text,'html.parser')
-	# elems = soup.select('#price_inside_buybox')
-	# #amazonTitle = soup.select('#productTitle')
+	soup = bs4.BeautifulSoup(res.text,'html.parser')
+	elems = soup.select('#price_inside_buybox')
+	amazonTitle = soup.select('#productTitle')
 
-	# return elems[0].text.strip()[0:]
+	print(amazonTitle[0].text.strip() + ' ' + elems[0].text.strip()[1:])
 
-# amazonText = open('amazonUrls.txt','r')
-# amazonUrlList = amazonText.readlines()
+amazonText = open('amazonUrls.txt','r')
+amazonUrlList = amazonText.readlines()
 
 
-# getAmazonPrice('https://www.amazon.co.uk/Brother-LS14S-Chassis-Sewing-Machine/dp/B07B6KL7VZ?ref_=Oct_DLandingS_PC_5adf3ab2_NA&smid=A3P5ROKL5A1OLE')
+getAmazonPrice('https://www.amazon.co.uk/Brother-LS14S-Chassis-Sewing-Machine/dp/B07B6KL7VZ?ref_=Oct_DLandingS_PC_5adf3ab2_NA&smid=A3P5ROKL5A1OLE')
 
 
