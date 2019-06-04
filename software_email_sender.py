@@ -38,7 +38,7 @@ def getLab(number):
 ######################################################################
 
 currentTime = datetime.date.today()
-workbook = openpyxl.load_workbook('Software_requests.xlsx')
+workbook = openpyxl.load_workbook('email_list.xlsx')
 sheet = workbook['Sheet1']
 email = 'J.burgess@lancaster.ac.uk'
 username = 'burgess@lancaster.ac.uk'
