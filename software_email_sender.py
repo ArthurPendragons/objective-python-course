@@ -38,7 +38,7 @@ def getLab(number):
 ######################################################################
 
 currentTime = datetime.date.today()
-workbook = openpyxl.load_workbook('email_list.xlsx')
+workbook = openpyxl.load_workbook('Software_requests.xlsx')
 sheet = workbook['Sheet1']
 email = 'J.burgess@lancaster.ac.uk'
 username = 'burgess@lancaster.ac.uk'
@@ -60,8 +60,8 @@ for x in range(2,5):
 
 	message = '''
 Hi {name},\n\n
-We have yet to hear from you regarding the software requirements for {course}.\n
-Currently you are scheduled to be a {lab} Lab, our labs contain a core set of software which can be found here: https://lancaster.box.com/s/0o4mwiu3x1wluy551p3ye23lvwdccmx8\n\n
+We are emailing you as the course lead regarding the software requirements for {course}.\n
+Currently you are scheduled to be in the {lab} Lab, our labs contain a core set of software which can be found here: https://lancaster.box.com/s/0o4mwiu3x1wluy551p3ye23lvwdccmx8\n\n
 Apart from the software in this set, last year when your course was taught this software set was required:\n\n
 {software}\n\n
 Last year, you {vm} use a VM. Will you be needing one?\n\n
